@@ -14,19 +14,21 @@ body {
   header {
     background-color: #ffffff;
     height: 65px;
+   
   }
 
   h1 {
     clear: both;
     background-color:#4aaaa5;
     font-size: 45px;
-    position: fixed; /* This is to make h1 sticky */
+    position: absolute; 
     left: 90px;
     /* width: 15%; */
     height: 65px;
     color: #ffffff;
     text-align: center;
     vertical-align: 50%;
+
     
     
   }
@@ -110,12 +112,15 @@ body {
     padding-bottom: 20px;
     color: gray;
     line-height: 23px;
+    margin-bottom: 10%;
+
   }
   @media screen and (max-width: 768px) { 
     .main_content{
       float: none;
       width: 90%;
       margin-left: 40px;
+     
     }
   }
 
@@ -143,6 +148,7 @@ body {
   @media screen and (max-width: 768px) { 
     .My_Contact_Info {
       position: static;
+      margin-bottom: 100px;
     }
   }
 
@@ -182,7 +188,7 @@ body {
 
   #Message_Box {    /*sizing the inputs*/
     height: 150px;
-    width: 500px;
+    width: 70%;
   }
 
   form{
@@ -192,7 +198,7 @@ body {
 
   input{
     margin-bottom: 10px;
-    width:500px;
+    width:70%;
     color: gray;
     
   }
@@ -210,3 +216,48 @@ body {
     margin-left: 50px;
     letter-spacing: 50px; /* making space between images */
   }
+
+
+  .photoLayout{
+    background-color: #ffffff;
+    border-color: #cccccc;
+    width: 55%;
+    margin-top: 50px;
+    margin-left: 90px;
+    float: left;             
+    padding-bottom: 20px;
+    color: gray;
+    line-height: 23px;
+    margin-bottom: 10%;
+
+  }
+
+  @media screen and (max-width: 980px) { 
+    .photoLayout{
+      
+      width: 40%;
+      
+     
+    }
+  }
+
+  @media screen and (max-width: 768px) { 
+    .photoLayout{
+      float: none;
+      width: 100%;
+      margin-left: 40px;
+     
+    }
+  }
+
+  @media screen and (max-width: 640px) { 
+    .photoLayout{
+      margin-top: 90px;
+      width: 70%;
+      margin-left: 15%;
+     
+    }
+  }
+
+
+  
